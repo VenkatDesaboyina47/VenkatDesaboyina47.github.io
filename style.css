@@ -1,9 +1,9 @@
 function toggleSection(id) {
-    let element = document.getElementById(id);
+    let section = document.getElementById(id);
 
-    if (element.style.display === "block") {
-        element.style.display = "none";
+    if (section.style.display === "block") {
+        section.style.display = "none";
     } else {
-        element.style.display = "block";
+        section.style.display = "block";
     }
 }
